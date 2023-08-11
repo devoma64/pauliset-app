@@ -1592,8 +1592,9 @@ a.cart-icon:hover, a.search-icon:hover {
 /***************  Service Area  *****************/
 
 .services-area {
-	margin-top: -105px;
+	/* margin-top: -105px; */
 	position: relative;
+	box-sizing: border-box;
 	z-index: 99;
 }
 section.services-area ul {
