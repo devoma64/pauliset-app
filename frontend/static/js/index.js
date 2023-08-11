@@ -3,6 +3,8 @@ import About from "./views/About.js";
 import Product from "./views/Product.js"
 import Services from "./views/Services.js";
 
+
+
 const navigateTo = url => {
     history.pushState(null, null, url);
     router();
@@ -47,6 +49,8 @@ const router = async () => {
 
 
 window.addEventListener("popstate", router);
+
+
 
 document.addEventListener("DOMContentLoaded", () =>{
 

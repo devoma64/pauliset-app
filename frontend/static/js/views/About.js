@@ -1,5 +1,6 @@
 import AbstractView from "./AbstractView.js";
 
+
 export default class extends AbstractView {
     constructor () {
         super();
@@ -7,9 +8,10 @@ export default class extends AbstractView {
     }
 
     async getHtml () {
-        return `
+
+       return `
         <!--Inner Header Start-->
-        <section class="wf100 p100 inner-header">
+        <section class="wf100 p100 inner-header" style="background-image: url('/static/images/h2-slide1.jpg'); background-size:cover; background-position:center; background-repeat:no-repeat">
            <div class="container">
               <h1>About Pauliset Agro Company</h1>
               <ul>
@@ -20,8 +22,6 @@ export default class extends AbstractView {
         </section>
         <!--Inner Header End--> 
       
-
-
          <!--Our Success Story Start-->
          <div class="our-success-story wf100 about">
             <div class="container">
@@ -32,32 +32,42 @@ export default class extends AbstractView {
                      </div>
                   </div>
                   <div class="col-lg-8">
-                     <div class="section-title-2">
+                     <div class="section-title-2 mt-5">
                         <h4 class="b" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-weight:bold;">Your satisfaction is our target</h4>
                      </div>
                      <!--eco History Start-->
                      <div class="eco-history">
-                      <p style="text-align: justify; color:#000; font-size:20px;">
-                        Pauliset & Son's Global Ltd., we take pride in being a leading agro company specializing in the cultivation, production, buying, and selling of    high-quality cocoa and palm oil products. Established in 2012 by our visionary C.E.O Sir Sunday, our company has become a symbol of excellence and innovation in the agricultural sector. Read More!
+                      <p style="text-align: justify; color:#000; font-size:16px; font-family: 'Roboto Slab', sans-serif;">
+                        Pauliset & Son's Global Ltd., we take pride in being a leading agro company specializing in the cultivation, production, buying, and selling of high-quality cocoa and palm oil products. Established in 2012 by our visionary C.E.O Sir Sunday, our company has become a symbol of excellence and innovation in the agricultural sector. A distinguished Agro Company and a prominent player in the cocoa and palm oil industry since her Establishment, the company has its headquarters situated in Okundi, Boki Local Government Area, Cross River State, and has further expanded its presence with a branch located in Ikom Local Government Area, Cross River State.
+                        </p>
+                        <p style="text-align: justify; color:#000; font-size:16px; font-family: 'Roboto Slab', sans-serif;">
 
-                        Pauliset & Son's Global Ltd. is a distinguished Agro Company that has been a prominent player in the cocoa and palm oil industry since its establishment in 2010. Founded by the visionary C.E.O Sir Paul, the company has its headquarters situated in Okundi, Boki Local Government Area, Cross River State, and has further expanded its presence with a branch located in Ikom Local Government Area, Cross River State.
+                           We specializes in every aspect of cocoa and palm oil, starting from cultivation to the production, buying, and selling of the final products. Our commitment to excellence and sustainability drives our agricultural practices, making us a trusted name in the agro sector.
 
-                        At its core, Pauliset & Son's Global Ltd. specializes in every aspect of cocoa and palm oil, starting from cultivation to the production, buying, and selling of the final products. The company's commitment to excellence and sustainability drives their agricultural practices, making them a trusted name in the agro sector.
+                           In the lush fields of our farms, and collaboration with local farmers, we diligently cultivates cocoa and palm oil crops. By employing advanced and environmentally responsible farming techniques, to ensure the production of high-quality raw materials, contributing to the overall health of the agricultural ecosystem.
+                        </p>
+                       
 
-                        In the lush fields of their farms, or in collaboration with local farmers, the company diligently cultivates cocoa and palm oil crops. By employing advanced and environmentally responsible farming techniques, they ensure the production of high-quality raw materials, contributing to the overall health of the agricultural ecosystem.
+                        <p style="text-align: justify; color:#000; font-size:16px;font-family: 'Roboto Slab', sans-serif;">
 
-                        With state-of-the-art processing facilities, Pauliset & Son's Global Ltd. undertakes the transformation of harvested cocoa and palm oil fruits into premium end products. The company's meticulous production processes yield top-grade cocoa beans, cocoa powder, cocoa butter, palm oil, and various derivatives. Stringent quality checks are in place to maintain the highest standards of their offerings.
+                        With state-of-the-art processing facilities, Pauliset & Son's Global Ltd. undertakes the transformation of harvested cocoa and palm oil fruits into premium end products. The company's meticulous production processes yield top-grade cocoa beans, cocoa powder, cocoa butter, palm oil, and various derivatives. Stringent quality checks are in place to maintain the highest standards of our offerings.
 
-                        The success of Pauliset & Son's Global Ltd. can be attributed to its robust supply chain. Through strategic partnerships and collaborations, the company sources cocoa and palm oil from its farms and local farmers, ensuring a consistent supply for production. Their commitment to fair trade practices not only ensures equitable compensation for farmers but also fosters community development and empowerment.
+                        The success of our company can be attributed to our robust supply chain. Through strategic partnerships and collaborations, the company sources cocoa and palm oil from its farms and local farmers, ensuring a consistent supply for production. Their commitment to fair trade practices not only ensures equitable compensation for farmers but also fosters community development and empowerment.
 
                         The reach of Pauliset & Son's Global Ltd. extends far beyond the borders of Cross River State, as the company adeptly markets and sells its products both locally and internationally. Their reputation for reliability and quality opens doors to partnerships with manufacturers, distributors, and discerning consumers worldwide.
+                        </p>
+                        
 
-                        Recognizing the significance of modern agricultural tools and equipment, the company takes pride in offering a comprehensive range of farm tools. This includes tools and machinery tailored to cocoa and palm oil cultivation, empowering farmers with the means to enhance their productivity and efficiency.
+                        <p style="text-align: justify; color:#000; font-size:16px;font-family: 'Roboto Slab', sans-serif;">
+                        
+                        Recognizing the significance of modern agricultural tools and equipment, we takes pride in offering a comprehensive range of farm tools. This includes tools and machinery tailored to cocoa and palm oil cultivation, empowering farmers with the means to enhance their productivity and efficiency.
 
-                        Under the exceptional leadership of the C.E.O Sir Paul, the company has flourished and continues to explore new opportunities for growth and expansion. Through a combination of innovation, dedication, and ethical business practices, Pauliset & Son's Global Ltd. remains a beacon of success in the agro industry.
-
+                        Under the exceptional leadership of the C.E.O, the company has flourished and continues to explore new opportunities for growth and expansion. Through a combination of innovation, dedication, and ethical business practices, Pauliset & Son's Global Ltd. remains a beacon of success in the agro industry.
+   
                         Pauliset & Son's Global Ltd. is a reputable agro company, deeply rooted in cocoa and palm oil farming, production, buying, selling, and farm tools supply. With its strategic presence in two locations within Cross River State, the company's commitment to sustainability, quality, and community development cements its position as a respected and reliable industry leader.
-                      </p>
+                   
+                        </p>
+                       
                      </div>
                      <!--Political History End--> 
                   </div>
@@ -78,7 +88,7 @@ export default class extends AbstractView {
                        <div class="about-text">
                           <h5>Our Mission</h5>
                           <h2 style="font-size: 24px;">Foster Sustainable Agriculture</h2>
-                          <p style="text-align: justify;"><strong>Our mission is to foster sustainable agriculture while delivering premium products that enrich lives and nourish communities. We are committed to responsible farming practices, fair trade principles, and environmental conservation, ensuring a positive impact on both our stakeholders and the planet.</strong></p>
+                          <p style="text-align: justify; color:#000; font-size:16px; font-family: 'Roboto Slab', sans-serif;">Our mission is to foster sustainable agriculture while delivering premium products that enrich lives and nourish communities. We are committed to responsible farming practices, fair trade principles, and environmental conservation, ensuring a positive impact on both our stakeholders and the planet.</p>
                           <!-- <a href="#">Contact Us</a>  -->
                        </div>
 
@@ -86,8 +96,8 @@ export default class extends AbstractView {
                        <div class="about-text">
                         <h5>Our Vision</h5>
                         <h2 style="font-size: 24px;">Setting a Global Benchmark for Sustainable Agriculture</h2>
-                        <p style="text-align: justify;"><strong>Our vision is to become the leading and most respected agro-industry leader in cocoa and palm oil farming, production, and distribution. Our commitment lies in consistently delivering premium-quality products that meet global standards, while upholding sustainable practices and positively impacting the lives of farmers and the environment. We aim to expand our global presence through strategic partnerships, cutting-edge technology, and innovative practices, all while remaining grounded in fair trade principles. Our company's vision extends beyond financial success, encompassing community empowerment, growth, and support for education initiatives. Ultimately, we aspires to redefine the agro industry's standards, setting a global benchmark for sustainable agriculture and becoming a catalyst for positive change.</strong></p>
-                        <a href="#">Contact Us</a> 
+                        <p style="text-align: justify; color:#000; font-size:16px; font-family: 'Roboto Slab', sans-serif;">Our vision is to become the leading and most respected agro-industry leader in cocoa and palm oil farming, production, and distribution. Our commitment lies in consistently delivering premium-quality products that meet global standards, while upholding sustainable practices and positively impacting the lives of farmers and the environment. <span id="dots">...</span> <span id="more"> We aim to expand our global presence through strategic partnerships, cutting-edge technology, and innovative practices, all while remaining grounded in fair trade principles. Our company's vision extends beyond financial success, encompassing community empowerment, growth, and support for education initiatives. Ultimately, we aspires to redefine the agro industry's standards, setting a global benchmark for sustainable agriculture and becoming a catalyst for positive change. </span></p>
+                        <button onclick="myFunction()" id="myBtn" class="btn btn-success">Read more</button>
                      </div>
                     </div>
                     <div class="col-lg-6">

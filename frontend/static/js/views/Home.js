@@ -85,12 +85,8 @@ return `
                distribute our products globally, connecting with manufacturers, distributors, and consumers worldwide.
             </p>
             <a class="mb-4 btn btn-success" href="">Read more</a>
-
-
          </div>
       </div>
-
-
    </div>
    </div>
 
@@ -107,7 +103,7 @@ return `
       <div class="row mt-5">
          <div class="col-md-5 about-media">
             <div class="video-img"> <a href="http://vimeo.com/43338103&amp;width=700" data-rel="prettyPhoto"
-                  title="Vimeo video"><i class="fas fa-play"></i></a> <img src="/static/images/h2about.jpg" alt="">
+                  title="Vimeo video"><i class="fas fa-play"></i></a> <img src="/static/images/pauliset-logo.png" alt="">
             </div>
          </div>
          <div class="col-md-7">
@@ -494,8 +490,6 @@ return `
                              </div>
                           </div>
                        
-
-
                         <div class="col-6">
                            <div class="eco-box">
                               <span class="econ-icon"><i class="far fa-money-bill-alt"></i></span>
