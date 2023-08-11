@@ -2,6 +2,8 @@ import Home from "./views/Home.js";
 import About from "./views/About.js";
 import Product from "./views/Product.js"
 import Services from "./views/Services.js";
+import Contact from "./views/Contact.js"
+import Testimonies from "./views/Testimonies.js";
 
 
 
@@ -18,8 +20,8 @@ const router = async () => {
         { path: "/about", view: About},
         { path: "/products", view: Product},
         { path: "/services", view: Services},
-        { path: "/testimonies", view: () => console.log("viewing the testimonies page")},
-        { path: "/contacts", view: () => console.log("viewing the contacts page")}
+        { path: "/testimonies", view: Testimonies},
+        { path: "/contacts", view:Contact}
     ];
 
 

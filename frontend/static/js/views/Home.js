@@ -160,14 +160,15 @@ return `
 </section>
 <!--About Section End-->
 
- <div class="container" style="margin-bottom: 2rem;">
-      <div class="row">
-         <div class="col-12">
-            <img src="/static/images/agro-sec.jpg" class="img-fluid" alt="">
-         </div>
+<div class="container" style="margin-bottom: 2rem;">
+   <div class="row">
+      <div class="col-12">
+         <img src="/static/images/agro-sec.jpg" class="img-fluid" alt="">
       </div>
    </div>
-<!--About Section Start-->
+</div>
+
+<!--Services Section Start-->
 <section class="home2-about wf100 p100 gallery gallery-background">
    <div class="container bn-background" style="margin-bottom: 5rem;">
       <div class="row">
@@ -190,24 +191,29 @@ return `
                   </div>
                </div>
             </div>
-            <h4 class="text-justify mt-5" style="color:#000; font-weight: bold;">A new profitable way to sell and invest
-               your farm produce <strong>COCOA AND PALM OIL</strong> </h4>
-            <p class="text-justify"> Our strong supply chain enables us to purchase cocoa and palm oil from our
-               farms and local farmers, promoting fair trade practices and empowering rural communities. We also
-               distribute our products globally, connecting with manufacturers, distributors, and consumers worldwide.
-            </p>
-            <a class="mb-4 btn btn-success" href="">Read more</a>
+            <h4 class="text-justify mt-5" style="color:#000; font-weight: bold;">
+               A new profitable way to sell and invest your farm produce <strong>COCOA AND PALM OIL</strong>
+            </h4>
+            <p class="text-justify" style="color:#000;">
 
+               Our strong supply chain enables us to purchase cocoa and palm oil from our farms and local farmers,
+               promoting fair trade practices and empowering rural communities. We also
+               distribute our products globally, connecting with manufacturers, distributors, and consumers worldwide
+               <span id="dots">...</span> <span id="more">While introducing an innovative and lucrative approach for
+                  marketing and investing in farm produce, leveraging modern technology, direct-to-consumer models,
+                  sustainable practices, and value-added processing to maximize profits and attract conscious investors,
+                  giving our farmers the opportunity to sell their produce at the very best price.
+               </span>
+            </p>
+
+            <button class="mb-4 btn btn-success" href="" onclick="myFunction()" id="myBtn">
+               Read more
+            </button>
 
          </div>
       </div>
-
-
    </div>
    </div>
-
-  
-
    <hr>
 
    <!--Urgent Causes Start-->
@@ -233,8 +239,11 @@ return `
                            src="/static/images/icons/farmer.svg" height="60" alt="" />
                         <div class="card-body text-left">
                            <h6 class="fw-bold fs-1 heading-color">Connect with a community of farmers</h6>
-                           <p class="mt-3 mb-md-0 mb-lg-2"style="font-size:19px; text-align:left; 	font-family: 'Roboto Slab', sans-serif; color:#000;">
-                               Engage with fellow agricultural enthusiasts, either in person or online, to share knowledge, support, and collaborate on innovative farming practices and business opportunities.
+                           <p class="mt-3 mb-md-0 mb-lg-2"
+                              style="font-size:19px; text-align:left; 	font-family: 'Roboto Slab', sans-serif; color:#000;">
+                              Engage with fellow agricultural enthusiasts, either in person or online, to share
+                              knowledge, support, and collaborate on innovative farming practices and business
+                              opportunities.
                            </p>
                         </div>
                      </div>
@@ -246,8 +255,11 @@ return `
                            src="/static/images/icons/growth.svg" height="60" alt="" />
                         <div class="card-body text-left">
                            <h6 class="fw-bold fs-1 heading-color">Grow your farm/business</h6>
-                           <p class="mt-3 mb-md-0 mb-lg-2" style="font-size: 18px; text-align:left; 	font-family: 'Roboto Slab', sans-serif; color:#000;">
-                              Learn how to implement strategic plans, expanding operations, diversifying products or services, optimizing resources, and capturing market opportunities to achieve increased profitability and success.
+                           <p class="mt-3 mb-md-0 mb-lg-2"
+                              style="font-size: 18px; text-align:left; 	font-family: 'Roboto Slab', sans-serif; color:#000;">
+                              Learn how to implement strategic plans, expanding operations, diversifying products or
+                              services, optimizing resources, and capturing market opportunities to achieve increased
+                              profitability and success.
                            </p>
                         </div>
                      </div>
@@ -259,8 +271,12 @@ return `
                            src="/static/images/icons/planting.svg" height="60" alt="" />
                         <div class="card-body text-left">
                            <h6 class="fw-bold fs-1 heading-color">Social Impact Invesment</h6>
-                           <p class="mt-3 mb-md-0 mb-lg-2"style="font-size: 18px; text-align:left; 	font-family: 'Roboto Slab', sans-serif; color:#000;">
-                              Becoming a farm investor require a bit of investment literacy, we teach you how to allocate financial resources with the intention of generating positive and measurable social or environmental outcomes alongside financial returns, addressing societal challenges while promoting sustainable development.
+                           <p class="mt-3 mb-md-0 mb-lg-2"
+                              style="font-size: 18px; text-align:left; 	font-family: 'Roboto Slab', sans-serif; color:#000;">
+                              Becoming a farm investor require a bit of investment literacy, we teach you how to
+                              allocate financial resources with the intention of generating positive and measurable
+                              social or environmental outcomes alongside financial returns, addressing societal
+                              challenges while promoting sustainable development.
                            </p>
                         </div>
                      </div>
@@ -293,7 +309,8 @@ return `
                   </div>
                   <div class="pt-lg-3">
                      <h6>Short term and Long term Supply</h6>
-                     <p class="w-xxl-75">Supply farm produce for us in short term period and get back huge profit in return.</p>
+                     <p class="w-xxl-75">Supply farm produce for us in short term period and get back huge profit in
+                        return.</p>
                      <button class="btn btn-lg btn-success" type="button">Contract details</button>
                   </div>
                </div>
@@ -303,7 +320,8 @@ return `
                   </div>
                   <div class="pt-lg-3">
                      <h6>Short term and Long term Supply</h6>
-                     <p class="w-xxl-75">Supply farm produce for us in long term contract and get back huge profit in return.</p>
+                     <p class="w-xxl-75">Supply farm produce for us in long term contract and get back huge profit in
+                        return.</p>
                      <button class="btn btn-lg btn-success" type="button">Contract details</button>
                   </div>
                </div>
@@ -346,9 +364,9 @@ return `
                               <div class="timeline-icon"><i class="fa fa-address-card" aria-hidden="true"></i></div>
                               <div class="timeline-text timeline-text-edited">
                                  <h6>Select your farmshare and complete reservation form here.</h6>
-                                 <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+                                 <!-- <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
                                     soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                                    placeat facere</p>
+                                    placeat facere</p> -->
                               </div>
                            </div>
                         </div>
@@ -372,9 +390,9 @@ return `
                               <div class="timeline-icon"><i class="fa fa-address-card" aria-hidden="true"></i></div>
                               <div class="timeline-text timeline-text-edited">
                                  <h6>The Farm Share has been one of the best new additions to our life.</h6>
-                                 <p>We the farmers choose the vegetables in your share each week. A Farm Share is
+                                 <!-- <p>We the farmers choose the vegetables in your share each week. A Farm Share is
                                     perfect for those who love the weekly surprise, and who look forward to cooking with
-                                    inspiration from the seasons.</p>
+                                    inspiration from the seasons.</p> -->
                               </div>
                            </div>
                         </div>
@@ -397,9 +415,9 @@ return `
                               <div class="timeline-icon"><i class="fa fa-address-card" aria-hidden="true"></i></div>
                               <div class="timeline-text timeline-text-edited">
                                  <h6>There is so much love and thought put into this CSA. You can feel that..</h6>
-                                 <p>We the farmers choose the vegetables in your share each week. A Farm Share is
+                                 <!-- <p>We the farmers choose the vegetables in your share each week. A Farm Share is
                                     perfect for those who love the weekly surprise, and who look forward to cooking with
-                                    inspiration from the seasons.</p>
+                                    inspiration from the seasons.</p> -->
                               </div>
                            </div>
                         </div>
@@ -423,11 +441,11 @@ return `
                               <div class="timeline-icon"><i class="fa fa-address-card" aria-hidden="true"></i></div>
                               <div class="timeline-text timeline-text-edited">
                                  <h6>The Farm Share has been one of the best new additions to our life</h6>
-                                 <p>
+                                 <!-- <p>
                                     We the farmers choose the vegetables in your share each week. A Farm Share is
                                     perfect for those who love the weekly surprise, and who look forward to cooking with
                                     inspiration from the seasons.
-                                 </p>
+                                 </p> -->
                               </div>
                            </div>
                         </div>
@@ -463,8 +481,7 @@ return `
                                     <div class="card h-100 shadow">
                                        <div class="card-body my-3">
                                           <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                             <img
-                                                class="img-fluid me-3 me-md-2 me-lg-3"
+                                             <img class="img-fluid me-3 me-md-2 me-lg-3"
                                                 src="/static/images/marvelouswon.png" width="50" alt="" />
                                              <div class="flex-1 align-items-center pt-2">
                                                 <h5 class="mb-0 fw-bold text-success">Marvelous Won</h5>
@@ -481,9 +498,8 @@ return `
                                     <div class="card h-100 shadow">
                                        <div class="card-body my-3">
                                           <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                             <img
-                                                class="img-fluid me-3 me-md-2 me-lg-3" src="/static/images/pauliset.png"
-                                                width="50" alt="" />
+                                             <img class="img-fluid me-3 me-md-2 me-lg-3"
+                                                src="/static/images/pauliset.png" width="50" alt="" />
 
                                              <div class="flex-1 align-items-center pt-2">
                                                 <h5 class="mb-0 fw-bold text-success">Mr Sunday</h5>
@@ -492,7 +508,7 @@ return `
                                           </div>
                                           <p class="mb-0 px-3 px-md-2 px-xxl-3">
                                              &quot;At vero eos et accusamus et iusto odio
-                                             dignissimos ducimus qui blanditiis praesentium 
+                                             dignissimos ducimus qui blanditiis praesentium
                                           </p>
                                        </div>
                                     </div>
@@ -539,14 +555,8 @@ return `
                   </div>
                </div>
          </div>
-   </section>
-   </div>
-   </div>
-</section>
 
 </section>
-
-
 
 <!--Testimonials End-->
 
