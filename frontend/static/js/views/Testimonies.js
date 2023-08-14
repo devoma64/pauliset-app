@@ -1,11 +1,12 @@
 import AbstractView from "./AbstractView.js";
 
 export default class extends AbstractView {
+
+    
     constructor(){
         super();
         this.setTile("Testimonies");
     }
-
     async getHtml(){
         return `
 
@@ -20,9 +21,6 @@ export default class extends AbstractView {
            </div>
         </section>
         <!--Inner Header End--> 
-
-
-
 
         <!--Testimonials Start-->
         <section class="testimonials-section wf100 p80">

@@ -18,7 +18,58 @@ return `
             <h3>Agro Company</h3>
             <br>
             <a href="#" class="active btn btn-success ">Discover More</a>
-            <a class="second-btn" href="#">Sell Products</a>
+              <!-- Button trigger modal -->
+              <a type="button" class="btn btn-success" data-toggle="modal" data-target="#sellProduct">
+               Sell Products
+             </a>
+
+             <div class="modal" tabindex="-1" role="dialog">
+               <div class="modal-dialog" role="document">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h5 class="modal-title">Modal title</h5>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                     </button>
+                   </div>
+                   <div class="modal-body">
+                      <div class="text-center">
+                         <h2>Send us and email</h2>
+                         <p>info@pauliset.com</p>
+                         <h2>Or call:</h2>
+                         <p>+234 9066492519</p>
+                         <p>+234 9025272991</p>
+                        </div>
+                   </div>
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-primary">Save changes</button>
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="sellProduct" tabindex="-1" role="dialog"
+               aria-labelledby="sellProductLabel" aria-hidden="true">
+               <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title lead b" id="sellProductLabel">Contact us below</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true" class="btn btn-danger"> Not Interested &times;</span>
+                        </button>
+                     </div>
+                     <div class="modal-body">
+                      
+                     </div>
+                     <div class="modal-footer text-center">
+                        <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Not Interested</button> -->
+                        <button type="button" class="btn btn-success">Sell Products</button>
+                     </div>
+                  </div>
+               </div>
+            </div> 
          </div>
       </div>
       <img src="/static/images/bg-slider-1.jpg" class="image-fluid" alt="">
@@ -36,7 +87,39 @@ return `
                   maintain the highest standards of our
                   offering.</span>
             </h3>
-            <a href="" class="active btn btn-success ">Find Out More</a> <a href="#">Join us Now</a>
+            <a href="" class="active btn btn-success ">Find Out More</a> 
+              <!-- Button trigger modal -->
+              <a type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+               Sell Products
+             </a>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+               aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title lead b" id="exampleModalLabel">Contact us below</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true" class="btn btn-danger"> Not Interested &times;</span>
+                        </button>
+                     </div>
+                     <div class="modal-body">
+                        <div class="text-center">
+                         <h2>  Send us and email</h2>
+                         <p>info@pauliset.com</p>
+                         <h2>Or call:</h2>
+                         <p>+234 9066492519</p>
+                         <p>+234 9025272991</p>
+                        </div>
+                     </div>
+                     <div class="modal-footer text-center">
+                        <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Not Interested</button> -->
+                        <button type="button" class="btn btn-success">Sell Products</button>
+                     </div>
+                  </div>
+               </div>
+            </div> 
          </div>
       </div>
       <img src="/static/images/bg-slider-ex.jpg" class="image-fluid" alt="">
@@ -49,7 +132,41 @@ return `
                We engaged you on Farm Seminars and Education to enable <span class="break-point">you become outstanding
                   in the agriculture industry</span>
             </h3>
-            <a href="#" class="active btn btn-success">Find Out More</a> <a href="#">Join us Now</a>
+
+            
+            <a href="#" class="active btn btn-success">Find Out More</a> 
+             <!-- Button trigger modal -->
+             <a type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+               Sell Products
+             </a>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+               aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title lead b" id="exampleModalLabel">Contact us below</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true" class="btn btn-danger"> Not Interested &times;</span>
+                        </button>
+                     </div>
+                     <div class="modal-body">
+                        <div class="text-center">
+                         <h2>  Send us and email</h2>
+                         <p>info@pauliset.com</p>
+                         <h2>Or call:</h2>
+                         <p>+234 9066492519</p>
+                         <p>+234 9025272991</p>
+                        </div>
+                     </div>
+                     <div class="modal-footer text-center">
+                        <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Not Interested</button> -->
+                        <button type="button" class="btn btn-success">Sell Products</button>
+                     </div>
+                  </div>
+               </div>
+            </div>            
          </div>
       </div>
       <img src="/static/images/h2-slide1.jpg" alt="">

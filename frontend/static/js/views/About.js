@@ -22,18 +22,56 @@ export default class extends AbstractView {
         </section>
         <!--Inner Header End--> 
       
-         <!--Our Success Story Start-->
+        <!--About Start-->
+        <section class="wf100 about">
+
+
+         <!--About Txt Video Start-->
+            <div class="about-video-section wf100">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <div class="about-text">
+                           <h5>Your satisfaction is our target</h5>
+                           <h5></h5>
+                           <p><strong>We are Taking Small Steps to Make</strong></p>
+                           <h2>Agriculture Better in Boki</h2>
+                         
+                           <p class="text-justify" style=" font-family: 'Roboto Slab', sans-serif;">In the pursuit of enhancing agricultural practices in Boki, we are dedicated to taking incremental yet impactful measures. By focusing on these small steps, we aim to create a significant positive impact on the agricultural landscape of the region. Through the implementation of innovative techniques, improved crop management strategies, sustainable irrigation methods, and enhanced access to modern farming tools and education, we are committed to fostering a more productive, resilient, and environmentally conscious agricultural sector in Boki Local Government Area, Cross River State. </p>
+                           <!-- <a href="#">Contact Us</a>  -->
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="about-video-img"> <a href="#"><i class="fas fa-play"></i></a> <img src="/static/images/aboutimg.jpg" alt=""> </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--About Txt Video End-->
+
+
+               <!--Our Success Story Start-->
          <div class="our-success-story wf100 about">
             <div class="container">
                <div class="row">
                   <div class="col-lg-4">
-                     <div class="story-title-bg"> <strong class="t1 text-years-in-service" style="font-size:45px; text-align:center; line-height:2.5rem;">Pauliset Agro Company</strong> <strong class="t2 text-years-in-service">10+</strong> <strong class="t3">Years of
-                        Services</strong> 
+                     <div class="story-title-bg"> 
+                        <strong class="t1 text-years-in-service" style="font-size:45px; text-align:center; line-height:2.5rem;">
+                           Pauliset Agro Company
+                        </strong> 
+                        <strong class="t2 text-years-in-service">
+                           10+
+                        </strong> 
+                        <strong class="t3">
+                           Years of Services
+                     </strong> 
                      </div>
                   </div>
                   <div class="col-lg-8">
                      <div class="section-title-2 mt-5">
-                        <h4 class="b" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-weight:bold;">Your satisfaction is our target</h4>
+                        <h2 class="b">
+                           About Us
+                        </h2>
                      </div>
                      <!--eco History Start-->
                      <div class="eco-history">
@@ -45,9 +83,7 @@ export default class extends AbstractView {
                            We specializes in every aspect of cocoa and palm oil, starting from cultivation to the production, buying, and selling of the final products. Our commitment to excellence and sustainability drives our agricultural practices, making us a trusted name in the agro sector.
 
                            In the lush fields of our farms, and collaboration with local farmers, we diligently cultivates cocoa and palm oil crops. By employing advanced and environmentally responsible farming techniques, to ensure the production of high-quality raw materials, contributing to the overall health of the agricultural ecosystem.
-                        </p>
                        
-
                         <p style="text-align: justify; color:#000; font-size:16px;font-family: 'Roboto Slab', sans-serif;">
 
                         With state-of-the-art processing facilities, Pauliset & Son's Global Ltd. undertakes the transformation of harvested cocoa and palm oil fruits into premium end products. The company's meticulous production processes yield top-grade cocoa beans, cocoa powder, cocoa butter, palm oil, and various derivatives. Stringent quality checks are in place to maintain the highest standards of our offerings.
@@ -67,7 +103,8 @@ export default class extends AbstractView {
                         Pauliset & Son's Global Ltd. is a reputable agro company, deeply rooted in cocoa and palm oil farming, production, buying, selling, and farm tools supply. With its strategic presence in two locations within Cross River State, the company's commitment to sustainability, quality, and community development cements its position as a respected and reliable industry leader.
                    
                         </p>
-                       
+                    
+                     <!-- <button onclick="myFunction()" class="btn btn-success" id="myBtn">Read More</button> -->
                      </div>
                      <!--Political History End--> 
                   </div>
@@ -76,37 +113,37 @@ export default class extends AbstractView {
          </div>
          <!--Our Success Story End--> 
 
-
-
-        <!--About Start-->
-        <section class="wf100 about">
            <!--About Txt Video Start-->
            <div class="about-video-section wf100">
               <div class="container">
                  <div class="row">
                     <div class="col-lg-6">
                        <div class="about-text">
-                          <h5>Our Mission</h5>
+                          <h5 class="text-center mb-5">Our Mission</h5>
                           <h2 style="font-size: 24px;">Foster Sustainable Agriculture</h2>
                           <p style="text-align: justify; color:#000; font-size:16px; font-family: 'Roboto Slab', sans-serif;">Our mission is to foster sustainable agriculture while delivering premium products that enrich lives and nourish communities. We are committed to responsible farming practices, fair trade principles, and environmental conservation, ensuring a positive impact on both our stakeholders and the planet.</p>
                           <!-- <a href="#">Contact Us</a>  -->
                        </div>
 
-
-                       <div class="about-text">
-                        <h5>Our Vision</h5>
+                    </div>
+                    <div class="col-lg-6">
+                       <!-- <div class="about-video-img"> 
+                        <a href="#"><i class="fas fa-play"></i></a> 
+                        <img src="/static/images/aboutimg.jpg" alt=""> 
+                     </div> -->
+                     <div class="about-text">
+                        <h5 class="text-center mb-5">Our Vision</h5>
                         <h2 style="font-size: 24px;">Setting a Global Benchmark for Sustainable Agriculture</h2>
                         <p style="text-align: justify; color:#000; font-size:16px; font-family: 'Roboto Slab', sans-serif;">Our vision is to become the leading and most respected agro-industry leader in cocoa and palm oil farming, production, and distribution. Our commitment lies in consistently delivering premium-quality products that meet global standards, while upholding sustainable practices and positively impacting the lives of farmers and the environment. <span id="dots">...</span> <span id="more"> We aim to expand our global presence through strategic partnerships, cutting-edge technology, and innovative practices, all while remaining grounded in fair trade principles. Our company's vision extends beyond financial success, encompassing community empowerment, growth, and support for education initiatives. Ultimately, we aspires to redefine the agro industry's standards, setting a global benchmark for sustainable agriculture and becoming a catalyst for positive change. </span></p>
                         <button onclick="myFunction()" id="myBtn" class="btn btn-success">Read more</button>
                      </div>
                     </div>
-                    <div class="col-lg-6">
-                       <div class="about-video-img"> <a href="#"><i class="fas fa-play"></i></a> <img src="/static/images/aboutimg.jpg" alt=""> </div>
-                    </div>
                  </div>
               </div>
            </div>
            <!--About Txt Video End--> 
+
+         
           
 
            <!--Why you Need to Choose Ecova Start-->
