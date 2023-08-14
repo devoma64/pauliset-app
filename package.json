@@ -16,7 +16,8 @@
   "bugs": {
     "url": "https://github.com/devoma64/pauliset-app/issues"
   },
-  "homepage": "https://github.com/devoma64/pauliset-app/frontend/index.html",
+
+  "homepage": "https://devoma64.github.io/pauliset-app/",
   "dependencies": {
     "express": "^4.18.2"
   }
